@@ -91,3 +91,7 @@ void display()
     printf("%d", temp-> number);
 }
 
+void insertAtBeginning(){
+    
+}
+

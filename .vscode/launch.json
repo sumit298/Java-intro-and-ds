@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinkListUse",
+            "request": "launch",
+            "mainClass": "LinkListUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListHeap",
+            "request": "launch",
+            "mainClass": "LinkListHeap",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumofdigits",
+            "request": "launch",
+            "mainClass": "sumofdigits",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondLargestElement",
+            "request": "launch",
+            "mainClass": "SecondLargestElement",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch Problem17",
             "request": "launch",
             "mainClass": "Problem17",

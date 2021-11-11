@@ -63,14 +63,7 @@ public class QueueUsingArray {
             System.out.println(data[i]);
         }
     }       
-    // public void display() {
-    //     if(size == 0){
-    //         System.out.println("Queue is Empty");
-    //     }
-    //     for (int index = front; index <= rear; index++) {
-    //         System.out.println(data[index]);
-    //     }
-    // }
+    
 
     public static void main(String[] args) {
         QueueUsingArray queue = new QueueUsingArray();
@@ -79,6 +72,8 @@ public class QueueUsingArray {
         queue.enqueue(15);
         queue.enqueue(20);
         queue.enqueue(25);
+        // queue.enqueue(52);
+        queue.dequeue();
         queue.dequeue();
         queue.dequeue();
         queue.dequeue();

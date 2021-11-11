@@ -2,8 +2,10 @@
     "java.project.sourcePaths": [
         "Stack And Queues",
         "Patterns",
+        "IntroLogicSums",
         "Getting Started wiith Java",
+        "Conditional and Loops",
         "Array",
-        "IntroLogicSums"
+        "LinkList"
     ]
 }
