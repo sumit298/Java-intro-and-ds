@@ -6,6 +6,384 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch binarySearchRecursive",
+            "request": "launch",
+            "mainClass": "binarySearchRecursive",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibbonacciRecursive",
+            "request": "launch",
+            "mainClass": "fibbonacciRecursive",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch printNumber",
+            "request": "launch",
+            "mainClass": "printNumber",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitStuffingNew",
+            "request": "launch",
+            "mainClass": "BitStuffingNew",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch city_matrix",
+            "request": "launch",
+            "mainClass": "city_matrix",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileCopyingInOutStream",
+            "request": "launch",
+            "mainClass": "FileCopyingInOutStream",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankersAlgo",
+            "request": "launch",
+            "mainClass": "BankersAlgo",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch fileHandling",
+            "request": "launch",
+            "mainClass": "fileHandling",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick_Sort",
+            "request": "launch",
+            "mainClass": "Quick_Sort",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Krushkal_Algo",
+            "request": "launch",
+            "mainClass": "Krushkal_Algo",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prims_Algo",
+            "request": "launch",
+            "mainClass": "Prims_Algo",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch try_catch",
+            "request": "launch",
+            "mainClass": "try_catch",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Overriding",
+            "request": "launch",
+            "mainClass": "Overriding",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Overloading",
+            "request": "launch",
+            "mainClass": "Overloading",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion_Sort",
+            "request": "launch",
+            "mainClass": "Insertion_Sort",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch HammingCodeNew",
+            "request": "launch",
+            "mainClass": "HammingCodeNew",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bubble_Sort",
+            "request": "launch",
+            "mainClass": "Bubble_Sort",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Linear_Search",
+            "request": "launch",
+            "mainClass": "Linear_Search",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Phone",
+            "request": "launch",
+            "mainClass": "Phone",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapMemory",
+            "request": "launch",
+            "mainClass": "HeapMemory.HeapMemory",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch server",
+            "request": "launch",
+            "mainClass": "server",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch City_Connectivity",
+            "request": "launch",
+            "mainClass": "City_Connectivity",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch HammingCodeAny",
+            "request": "launch",
+            "mainClass": "HammingCodeAny",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inorder",
+            "request": "launch",
+            "mainClass": "Inorder",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch HierarchicalInheritance",
+            "request": "launch",
+            "mainClass": "TypesoFInheritance.HierarchicalInheritance",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultilevelInheritance",
+            "request": "launch",
+            "mainClass": "TypesoFInheritance.MultilevelInheritance",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleInheritance",
+            "request": "launch",
+            "mainClass": "TypesoFInheritance.SingleInheritance",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch TypesofInheritance",
+            "request": "launch",
+            "mainClass": "TypesofInheritance",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prob6",
+            "request": "launch",
+            "mainClass": "Prob6",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prob5",
+            "request": "launch",
+            "mainClass": "Prob5",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prob4",
+            "request": "launch",
+            "mainClass": "Prob4",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prob3",
+            "request": "launch",
+            "mainClass": "Prob3",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prob1",
+            "request": "launch",
+            "mainClass": "Prob1",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prob2",
+            "request": "launch",
+            "mainClass": "Prob2",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem1",
+            "request": "launch",
+            "mainClass": "Problem1",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentUse",
+            "request": "launch",
+            "mainClass": "StudentUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch inheritance",
+            "request": "launch",
+            "mainClass": "inheritance",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneBookUse",
+            "request": "launch",
+            "mainClass": "PhoneBookUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneBookNode",
+            "request": "launch",
+            "mainClass": "PhoneBookNode",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch heapMemory",
+            "request": "launch",
+            "mainClass": "HeapMemory.heapMemory",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch HammingCode",
+            "request": "launch",
+            "mainClass": "HammingCode",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch problem20",
+            "request": "launch",
+            "mainClass": "problem20",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitStuffing",
+            "request": "launch",
+            "mainClass": "BitStuffing",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch circularLinkList",
+            "request": "launch",
+            "mainClass": "CircularLinkList.circularLinkList",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListUse",
+            "request": "launch",
+            "mainClass": "SinglyLinkList.LinkListUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch doublyLL",
+            "request": "launch",
+            "mainClass": "DoublyLinkList.doublyLL",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch circularLinkList",
+            "request": "launch",
+            "mainClass": "circularLinkList",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListUse",
+            "request": "launch",
+            "mainClass": "LinkListImplementation.LinkListUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompareTriplets",
+            "request": "launch",
+            "mainClass": "CompareTriplets",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringFunc",
+            "request": "launch",
+            "mainClass": "stringFunc",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDuplicate",
+            "request": "launch",
+            "mainClass": "FindDuplicate",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem19",
+            "request": "launch",
+            "mainClass": "Problem19",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem18",
+            "request": "launch",
+            "mainClass": "Problem18",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkListUse",
             "request": "launch",
             "mainClass": "LinkListUse",

@@ -1,23 +1,27 @@
+import java.util.Scanner;
 
 public class QueueUsingArray {
     int front;
     int rear;
     int size;
-    int data[];
+    String process[];
 
     public QueueUsingArray() {
         front = -1;
         rear = -1;
         size = 0;
-        data = new int[5];
+        process = new String[10];
     }
 
     int size() {
         return size;
     }
 
-    void enqueue(int element) {
-        if (size == data.length) {
+    void enqueue() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the name of Process: ");
+        String element = scan.nextLine();
+        if (size == process.length) {
             System.out.println("Queue Overflow");
             return;
         }
@@ -25,58 +29,64 @@ public class QueueUsingArray {
             front = 0; // only for first insertion
         }
         rear++;
-        data[rear] = element;
+        process[rear] = element;
         size++;
+        menu();
 
     }
-    int dequeue() {
+
+    String dequeue() {
         if (size == 0) {
             System.out.println("Queue Underflow");
-            return -1;
+            return "";
         }
-        int element = data[front];
+        String element = process[front];
         front++;
         size--;
+        menu();
         return element;
     }
-    // int dequeue() {
-    //     int deletedElement;
-    //     if (size == 0) {
-    //         return 0;
-    //     } else {
-    //         deletedElement = data[front];
-    //     }
-    //     if(front > rear){
-    //         front = -1;
-    //         rear = -1;
 
-    //     }
-    //     else{
-
-    //         front = front + 1;
-    //     }
-    //     System.out.println(deletedElement);
-    //     return deletedElement;
-    // }
-    public void display(){
-        for(int i = front; i <= rear; i++){
-            System.out.println(data[i]);
+    public void display() {
+        for (int i = front; i <= rear; i++) {
+            System.out.print(process[i] + " == ");
         }
-    }       
-    
+        System.out.println();
+
+        menu();
+    }
+
+    public void menu() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("1. Enqueue A Process");
+        System.out.println("2. Dequeue Process");
+        System.out.println("3. Display Current Processes");
+        System.out.println("4. Exit");
+        System.out.println("Enter your choice: ");
+        int choice = scan.nextInt();
+        switch (choice) {
+        case 1:
+
+            enqueue();
+            // menu();
+        case 2:
+            dequeue();
+            // menu();
+        case 3:
+            display();
+            // menu();
+        case 4:
+            System.exit(0);
+        default:
+            System.out.println("Invalid Choice!!");
+            menu();
+        }
+
+    }
 
     public static void main(String[] args) {
         QueueUsingArray queue = new QueueUsingArray();
-        queue.enqueue(5);
-        queue.enqueue(10);
-        queue.enqueue(15);
-        queue.enqueue(20);
-        queue.enqueue(25);
-        // queue.enqueue(52);
-        queue.dequeue();
-        queue.dequeue();
-        queue.dequeue();
-        queue.dequeue();
-        queue.display();
+        queue.menu();
+
     }
 }

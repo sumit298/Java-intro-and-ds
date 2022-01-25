@@ -1,11 +1,27 @@
 {
     "java.project.sourcePaths": [
+        "Trees/Traversals",
+        "Trees/PhoneBook",
+        "String",
         "Stack And Queues",
+        "Searching and Sorting",
         "Patterns",
+        "Object Oriented Programming/class_and_objects",
+        "Object Oriented Programming/Polymorphism",
+        "Object Oriented Programming/OOP Problems",
+        "Object Oriented Programming/Inheritance",
+        "Object Oriented Programming/FileHandling",
+        "Object Oriented Programming/ExceptionHandling",
+        "OS",
+        "LinkList",
         "IntroLogicSums",
+        "HackerRank_Problems",
+        "Graph",
         "Getting Started wiith Java",
         "Conditional and Loops",
+        "ComputerNetworks",
+        "ChatApp",
         "Array",
-        "LinkList"
+        "Recursion"
     ]
 }

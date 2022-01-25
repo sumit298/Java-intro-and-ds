@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class stackUsingArray {
     char data[];
     int top; //Top most element of the stack
@@ -70,9 +72,18 @@ public class stackUsingArray {
 
     }
     public static void main(String[] args) {
-        // stackUsingArray stack = new stackUsingArray();
-        boolean result  = checkParenthesis("{{[()]}}");
-        System.out.println(result);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the Brackets: ");
+        String str = scan.nextLine();
+        scan.close();
+        boolean result  = checkParenthesis(str);
+        if(result){
+            System.out.println("Parenthesis Matched");
+        }
+        else{
+
+            System.out.println("Parenthesis Not Matched");
+        }
         
     }    
 }
