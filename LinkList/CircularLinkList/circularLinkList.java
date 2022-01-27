@@ -12,11 +12,9 @@ public class circularLinkList {
             CircularNode newNode = new CircularNode();
             newNode.data = data;
             if (head == null) {
-                // Creation of new circular Node
                 head = newNode;
-
+                newNode.next = head;
             } else {
-                // Creation of temp to iterate over head
                 CircularNode temp = head;
                 while (temp.next != null) {
                     temp = temp.next;
@@ -25,7 +23,6 @@ public class circularLinkList {
 
             }
             data = scan.nextInt();
-
         }
         return head;
     }
@@ -34,7 +31,7 @@ public class circularLinkList {
         CircularNode temp = head;
         if (head == null) {
             System.out.println("Link List is Empty");
-            
+
         } else {
             while (temp.next != head) {
                 System.out.print(temp.data + " ==> ");
@@ -59,10 +56,9 @@ public class circularLinkList {
         while (temp != head) {
             temp = temp.next;
         }
-        
 
     }
-    
+
     public static void main(String[] args) {
         CircularNode head = createCircularLinkList();
         head = displayLinkList(head);

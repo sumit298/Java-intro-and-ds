@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaxSubArray",
+            "request": "launch",
+            "mainClass": "MaxSubArray",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch binarySearchRecursive",
             "request": "launch",
             "mainClass": "binarySearchRecursive",

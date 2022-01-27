@@ -15,23 +15,23 @@ public class doublyLL {
         int choice = scan.nextInt();
         switch (choice) {
 
-        case 1:
-            insertMenu(head);
-            break;
-        case 2:
-            displayMenu(head);
-            menu(head);
-            break;
-        case 3:
-            deleteMenu(head);
-            break;
-        case 4:
-            System.exit(0);
-            // break;
-        default:
-            System.out.println("Invalid Choice!");
-            menu(head);
-            break;
+            case 1:
+                insertMenu(head);
+                break;
+            case 2:
+                displayMenu(head);
+                menu(head);
+                break;
+            case 3:
+                deleteMenu(head);
+                break;
+            case 4:
+                System.exit(0);
+                // break;
+            default:
+                System.out.println("Invalid Choice!");
+                menu(head);
+                break;
         }
         // scan.close();
     }
@@ -44,21 +44,21 @@ public class doublyLL {
         System.out.println("Enter your choice");
         int choice = scan.nextInt();
         switch (choice) {
-        case 1:
-            displayLinkList(head);
-            menu(head);
-            break;
-        case 2:
-            displayInReverse(head);
-            menu(head);
-            break;
-        case 3:
-            menu(head);
-            break;
-        default:
-            System.out.println("Invalid Choice!");
-            menu(head);
-            break;
+            case 1:
+                displayLinkList(head);
+                menu(head);
+                break;
+            case 2:
+                head = displayInReverse(head);
+                menu(head);
+                break;
+            case 3:
+                menu(head);
+                break;
+            default:
+                System.out.println("Invalid Choice!");
+                menu(head);
+                break;
         }
 
     }
@@ -73,25 +73,25 @@ public class doublyLL {
         System.out.println("Enter your choice");
         int insertMenuChoice = scan.nextInt();
         switch (insertMenuChoice) {
-        case 1:
-            head = insertAtStart(head);
-            menu(head);
-            break;
-        case 2:
-            head = insertAtMiddle(head);
-            menu(head);
-            break;
-        case 3:
-            InsertAtLast(head);
-            menu(head);
-            break;
-        case 4:
-            menu(head);
-            // break;
-        default:
-            System.out.println("Invalid Choice");
-            menu(head);
-            break;
+            case 1:
+                head = insertAtStart(head);
+                menu(head);
+                break;
+            case 2:
+                head = insertAtMiddle(head);
+                menu(head);
+                break;
+            case 3:
+                InsertAtLast(head);
+                menu(head);
+                break;
+            case 4:
+                menu(head);
+                // break;
+            default:
+                System.out.println("Invalid Choice");
+                menu(head);
+                break;
         }
         // scan.close();
     }
@@ -105,24 +105,24 @@ public class doublyLL {
         System.out.println("Enter your choice");
         int deleteMenuChoice = scan.nextInt();
         switch (deleteMenuChoice) {
-        case 1:
-            head = deleteAtBeginning(head);
-            menu(head);
-            break;
-        case 2:
-            head = deleteAtMiddle(head);
-            menu(head);
-            break;
-        case 3:
-            deleteAtLast(head);
-            menu(head);
-            break;
-        case 4:
-            menu(head);
-            // break;
-        default:
-            System.out.println("Invalid Choice!");
-            menu(head);
+            case 1:
+                head = deleteAtBeginning(head);
+                menu(head);
+                break;
+            case 2:
+                head = deleteAtMiddle(head);
+                menu(head);
+                break;
+            case 3:
+                deleteAtLast(head);
+                menu(head);
+                break;
+            case 4:
+                menu(head);
+                // break;
+            default:
+                System.out.println("Invalid Choice!");
+                menu(head);
 
         }
         // scan.close();
@@ -199,7 +199,6 @@ public class doublyLL {
             return head;
         }
 
-
         while (count < position - 1 && temp.next != null) {
             count++;
             temp = temp.next;
@@ -230,11 +229,11 @@ public class doublyLL {
         }
     }
 
-    public static void displayInReverse(DoubleNode head) {
+    public static DoubleNode displayInReverse(DoubleNode head) {
         DoubleNode temp = head;
         if (head == null) {
             System.out.println("Link List is Empty:");
-            return;
+            return head;
         }
         while (temp.next != null) {
             temp = temp.next;
@@ -244,7 +243,50 @@ public class doublyLL {
             temp = temp.prev;
         }
         System.out.println();
+        return head;
     }
+
+    public static DoubleNode displayReverse2(DoubleNode head) {
+        if (head == null)
+            return null;
+
+        if (head.next == null)
+            return head;
+
+        DoubleNode temp = head;
+        DoubleNode Next = temp.next;
+        while (Next != null) {
+
+            temp.next = temp.prev;
+            temp.prev = Next;
+            temp = Next;
+            Next = Next.next;
+
+        }
+
+        temp.next = temp.prev;
+        temp.prev = null;
+        return temp;
+    }
+
+    // Node* Reverse(Node* head)
+    // {
+    // Node *temp = NULL;
+    // Node *current = head;
+
+    // while (current != NULL)
+    // {
+    // temp = current->prev;
+    // current->prev = current->next;
+    // current->next = temp;
+    // current = current->prev;
+    // }
+    // if(temp != NULL )
+    // head = temp->prev;
+
+    // return head;
+
+    // }
 
     public static DoubleNode deleteAtBeginning(DoubleNode head) {
         head = head.next;

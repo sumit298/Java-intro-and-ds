@@ -158,6 +158,10 @@ public class LinkListUse {
         Node newNode = new Node();
         newNode.data = data;
         Node temp = head;
+        if(head==null){
+            return;
+            // return newNode
+        }
         while (temp.next != null) {
             temp = temp.next;
         }
@@ -198,6 +202,22 @@ public class LinkListUse {
         System.out.println("Node Inserted At Middle at postion: " + position);
         // scan.close();
 
+    }
+
+    public static void searchLinkList(Node head){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the data you want to search: ");
+        int data = scan.nextInt();
+        Node temp = head;
+        while(temp.next!=null){
+            if(temp.data==data){
+                System.out.println("Data Found");
+                return;
+            }
+            temp = temp.next;
+        }
+        System.out.println("Data Not Found");
+        // scan.close();
     }
 
     public static Node deleteAtBeginning(Node head) {
