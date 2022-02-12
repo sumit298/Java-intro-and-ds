@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _217_Contains_Duplicate",
+            "request": "launch",
+            "mainClass": "_217_Contains_Duplicate",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _7_Reverse_Number",
+            "request": "launch",
+            "mainClass": "_7_Reverse_Number",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _9_Check_Palindrome",
+            "request": "launch",
+            "mainClass": "_9_Check_Palindrome",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch leap_year",
+            "request": "launch",
+            "mainClass": "leap_year",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch MaxSubArray",
             "request": "launch",
             "mainClass": "MaxSubArray",

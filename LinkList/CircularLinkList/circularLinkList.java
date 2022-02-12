@@ -1,66 +1,22 @@
 package CircularLinkList;
 
-import java.util.Scanner;
-
 public class circularLinkList {
-    public static CircularNode createCircularLinkList() {
-        CircularNode head = null;
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the nodes, to stop press -1");
-        int data = scan.nextInt();
-        while (data != -1) {
-            CircularNode newNode = new CircularNode();
-            newNode.data = data;
-            if (head == null) {
-                head = newNode;
-                newNode.next = head;
-            } else {
-                CircularNode temp = head;
-                while (temp.next != null) {
-                    temp = temp.next;
-                }
-                temp.next = newNode;
-
-            }
-            data = scan.nextInt();
+    void display(CircularNode last) {
+        CircularNode temp;
+        if (last == null) {
+            System.out.println("Link list is empty");
         }
-        return head;
-    }
-
-    public static CircularNode displayLinkList(CircularNode head) {
-        CircularNode temp = head;
-        if (head == null) {
-            System.out.println("Link List is Empty");
-
-        } else {
-            while (temp.next != head) {
-                System.out.print(temp.data + " ==> ");
+        else{
+            temp = last.next;
+            do{
+                System.out.println(temp.data);
                 temp = temp.next;
-            }
+            }while(temp!=last.next);
+
         }
-        return head;
     }
-
-    public static CircularNode deleteAtBegining(CircularNode head) {
-        CircularNode temp = head;
-        while (temp != head) {
-            temp = temp.next;
-        }
-        temp.next = head;
-        head = head.next;
-        return head;
-    }
-
-    public static void deleteAtLast(CircularNode head) {
-        CircularNode temp = head;
-        while (temp != head) {
-            temp = temp.next;
-        }
-
-    }
-
-    public static void main(String[] args) {
-        CircularNode head = createCircularLinkList();
-        head = displayLinkList(head);
+    public static CircularNode insertAtBeginning(CircularNode last){
+        CircularNode newNode = new CircularNode();
+        return last;
     }
 }

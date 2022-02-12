@@ -6,6 +6,6 @@ public class CircularNode {
     CircularNode next;
 
     public CircularNode(){
-        this.next = null;
+        
     }
 }

@@ -1,28 +1,25 @@
-public class MaxSubArray {
-    public static int MaxSubArrayByKadaneAlgo(int arr[]) {
+public class _53_Maximum_SubArray {
+    public static int maxSubArray(int arr[]){
+        int maxSum = arr[0];
         int currentSum = arr[0];
-        int overallSum = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (currentSum > 0) {
-                currentSum += arr[i];
-            } else {
+        for(int i=1; i<arr.length; i++){
+            if(currentSum > 0){
+                currentSum = currentSum + arr[i];
+            }
+            else{
                 currentSum = arr[i];
             }
-            if (currentSum > overallSum) {
-                overallSum = currentSum;
+            if(currentSum > maxSum){
+                maxSum = currentSum;
             }
-
         }
-        return overallSum;
+        return maxSum;
     }
-
     public static void main(String[] args) {
-        // int arr[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
-        int arr[] = ArrayUse.arrInput();
-        System.out.println("Maximum Subarray is " + MaxSubArrayByKadaneAlgo(arr));
-
+        
     }
 }
+
 
 // What is kadane Algorithm
 // Kadane's algorithm is a simple algorithm for finding the maximum subarray of
