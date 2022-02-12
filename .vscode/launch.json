@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _485_Max_Consecutive_Ones",
+            "request": "launch",
+            "mainClass": "_485_Max_Consecutive_Ones",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _35_Search_Insert_Position",
+            "request": "launch",
+            "mainClass": "_35_Search_Insert_Position",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch _217_Contains_Duplicate",
             "request": "launch",
             "mainClass": "_217_Contains_Duplicate",
