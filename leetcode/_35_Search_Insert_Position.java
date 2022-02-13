@@ -27,10 +27,10 @@ public class _35_Search_Insert_Position {
         if (nums.length == 0)
             return 0;
         // if (nums.length == 1) {
-        //     if (nums[0] >= target)
-        //         return 0;
-        //     if (nums[0] < target)
-        //         return 1;
+        // if (nums[0] >= target)
+        // return 0;
+        // if (nums[0] < target)
+        // return 1;
         // }
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -48,7 +48,7 @@ public class _35_Search_Insert_Position {
     }
 
     public static void main(String[] args) {
-        int nums[] = {1,3,5,6};
+        int nums[] = { 1, 3, 5, 6 };
         int index = search_insert(nums, 2);
         System.out.println(index);
     }

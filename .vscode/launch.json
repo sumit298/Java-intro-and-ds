@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ValidParenthesis",
+            "request": "launch",
+            "mainClass": "ValidParenthesis",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckParenthesis",
+            "request": "launch",
+            "mainClass": "CheckParenthesis",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpecialSumOfArray",
+            "request": "launch",
+            "mainClass": "SpecialSumOfArray",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComplexNumberUse",
+            "request": "launch",
+            "mainClass": "ComplexNoClass.ComplexNumberUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch FractionUse",
+            "request": "launch",
+            "mainClass": "FractionClass.FractionUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch _485_Max_Consecutive_Ones",
             "request": "launch",
             "mainClass": "_485_Max_Consecutive_Ones",
