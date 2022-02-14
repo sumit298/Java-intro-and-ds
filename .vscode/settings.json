@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "leetcode",
         "Trees/Traversals",
         "Trees/PhoneBook",
         "String",
@@ -22,6 +23,6 @@
         "Conditional and Loops",
         "ComputerNetworks",
         "Array",
-        "leetcode"
+        "Object Oriented Programming/Abstract Class"
     ]
 }

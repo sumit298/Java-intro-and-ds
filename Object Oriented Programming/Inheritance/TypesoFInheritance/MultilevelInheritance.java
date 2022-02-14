@@ -5,14 +5,14 @@ class Vehicle {
     String color;
     int wheels;
 
-    public void print() {
+    void print() {
 
         System.out.println(model + " " + color + " " + wheels);
     }
 }
 
 class Bus extends Vehicle {
-    public Bus() {
+    Bus() {
         model = "Volvo";
         color = "blue";
         wheels = 4;

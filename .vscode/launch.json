@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _136_Single_Number",
+            "request": "launch",
+            "mainClass": "_136_Single_Number",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _66_Plus_one",
+            "request": "launch",
+            "mainClass": "_66_Plus_one",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch VehicleUse",
+            "request": "launch",
+            "mainClass": "VehicleUse",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch ValidParenthesis",
             "request": "launch",
             "mainClass": "ValidParenthesis",
