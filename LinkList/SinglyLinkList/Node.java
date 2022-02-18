@@ -1,6 +1,6 @@
 package SinglyLinkList;
 public class Node {
-    int data;
+    public int data;
     public Node next;
 
     public Node(){

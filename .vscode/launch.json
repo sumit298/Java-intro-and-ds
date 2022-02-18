@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryLinkListConverter",
+            "request": "launch",
+            "mainClass": "SinglyLinkList.BinaryLinkListConverter",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryToDecimal",
+            "request": "launch",
+            "mainClass": "BinaryToDecimal",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _349_Intersection_of_two_arrays",
+            "request": "launch",
+            "mainClass": "_349_Intersection_of_two_arrays",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListPractice",
+            "request": "launch",
+            "mainClass": "ArrayListPractice",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _219_Contains_Duplicate2",
+            "request": "launch",
+            "mainClass": "_219_Contains_Duplicate2",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch _136_Single_Number",
             "request": "launch",
             "mainClass": "_136_Single_Number",

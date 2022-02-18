@@ -11,3 +11,20 @@ LeetCode Day - 1:\
 
 LeetCode Day - 2:\
     20. Valid Parenthesis
+
+LeetCode Day - 3:\
+    66. Plus One
+    136. Single Number
+
+LeetCode Day - 4:\
+    21. Best time to buy and sell stock (Optimized Approach Remaining)
+
+LeetCode Day - 5:\
+    283. Move Zeroes
+
+LeetCode Day - 6:\
+    219. Contains Duplicate II
+
+LeetCode Day - 7:\
+    704. Binary Search
+    1290.Convert Binary Number in a Linked List to Integer
