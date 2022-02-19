@@ -1,5 +1,5 @@
-public class TwoSum {
-    // Approach 1 do dry run tommorrow
+public class _1_TwoSum {
+    // Approach 1: Brute Force
     public static int[] PairSumOfArray(int arr[], int target) {
         int result[] = new int[2];
         for (int i = 0; i < arr.length; i++) {
@@ -12,6 +12,7 @@ public class TwoSum {
         }
         return result;
     }
+    // optimal solution remaining
     public static void main(String[] args) {
         int arr[] = ArrayUse.arrInput();
         int result[] = PairSumOfArray(arr, 7);

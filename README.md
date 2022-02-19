@@ -26,5 +26,8 @@ LeetCode Day - 6:\
     219. Contains Duplicate II
 
 LeetCode Day - 7:\
-    704. Binary Search
+    704. Binary Search\
     1290.Convert Binary Number in a Linked List to Integer
+
+LeetCode Day - 8:\
+    34. Find first and last position of element in sorted Array

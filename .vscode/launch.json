@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _34_find_first_and_last_position_of_target_in_sorted_array",
+            "request": "launch",
+            "mainClass": "_34_find_first_and_last_position_of_target_in_sorted_array",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryLinkListConverter",
             "request": "launch",
             "mainClass": "SinglyLinkList.BinaryLinkListConverter",
