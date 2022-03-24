@@ -11,6 +11,8 @@ public abstract class Vehicles {
         return maxSpeed;
     }
 
+    abstract String getCompanyName();
+
     abstract boolean isMotorized();
 
     void setMaxSpeed(int maxSpeed) {

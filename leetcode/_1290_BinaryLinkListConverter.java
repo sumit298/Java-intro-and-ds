@@ -13,6 +13,7 @@ public class _1290_BinaryLinkListConverter {
             count++; // for finding length of link list
             temp = temp.next;
         }
+        
         int arr[] = new int[count]; // making arr with size of linklist
         int i=0; 
         while(temp2 != null){
@@ -48,6 +49,7 @@ public class _1290_BinaryLinkListConverter {
         Node head = LinkListUse.createLinkList();
         int result = getDecimalValue(head);
         System.out.println(result);
+        
         
     }
 }

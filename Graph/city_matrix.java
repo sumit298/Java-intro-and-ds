@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class city_matrix{
 	
 	public static void main(String args[])

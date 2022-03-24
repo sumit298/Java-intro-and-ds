@@ -1,4 +1,4 @@
-public class Cars extends Vehicles {
+public abstract class Cars extends Vehicles {
     int numGears;
     boolean isConvertible;
 
@@ -12,6 +12,7 @@ public class Cars extends Vehicles {
         return isConvertible;
     }
 
+    // Car is not implementing getCompany() Method so declaring himself as abstract class.
     @Override
     void print() {
         super.print();

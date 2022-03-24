@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _88_Merge_Two_Sorted_Array",
+            "request": "launch",
+            "mainClass": "_88_Merge_Two_Sorted_Array",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _75_Sort_Colors",
+            "request": "launch",
+            "mainClass": "_75_Sort_Colors",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prims_Algorithm",
+            "request": "launch",
+            "mainClass": "Prims_Algorithm",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2108_Find_First_Palindromic_String_in_the_Array",
+            "request": "launch",
+            "mainClass": "_2108_Find_First_Palindromic_String_in_the_Array",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1979_Find_Greatest_Common_Divisor_of_Array",
+            "request": "launch",
+            "mainClass": "_1979_Find_Greatest_Common_Divisor_of_Array",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prims_Algorithm",
+            "request": "launch",
+            "mainClass": "Prims_Algorithm",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2114_Maximum_Number_of_Words_Found_in_Sentences",
+            "request": "launch",
+            "mainClass": "_2114_Maximum_Number_of_Words_Found_in_Sentences",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1790_Check_if_One_String_Swap_Can_Make_Strings_Equal",
+            "request": "launch",
+            "mainClass": "_1790_Check_if_One_String_Swap_Can_Make_Strings_Equal",
+            "projectName": "New - Intoduction to Java_2c4017b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2180_Count_Integers_With_Even_Digit_Sum",
+            "request": "launch",
+            "mainClass": "_2180_Count_Integers_With_Even_Digit_Sum",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vehicle",
+            "request": "launch",
+            "mainClass": "Vehicle",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1295_Find_Numbers_with_Even_Number_of_Digits",
+            "request": "launch",
+            "mainClass": "_1295_Find_Numbers_with_Even_Number_of_Digits",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _412_FizzBuzz",
+            "request": "launch",
+            "mainClass": "_412_FizzBuzz",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringRepition",
+            "request": "launch",
+            "mainClass": "stringRepition",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _21_Merge_two_link_lists",
+            "request": "launch",
+            "mainClass": "_21_Merge_two_link_lists",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1572_Matrix_Diagonal_Sum",
+            "request": "launch",
+            "mainClass": "_1572_Matrix_Diagonal_Sum",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1290_BinaryLinkListConverter",
+            "request": "launch",
+            "mainClass": "_1290_BinaryLinkListConverter",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1790_Check_if_One_String_Swap_Can_Make_Strings_Equal",
+            "request": "launch",
+            "mainClass": "_1790_Check_if_One_String_Swap_Can_Make_Strings_Equal",
+            "projectName": "New - Intoduction to Java_1ee72846"
+        },
+        {
+            "type": "java",
             "name": "Launch _34_find_first_and_last_position_of_target_in_sorted_array",
             "request": "launch",
             "mainClass": "_34_find_first_and_last_position_of_target_in_sorted_array",

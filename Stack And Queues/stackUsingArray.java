@@ -41,6 +41,7 @@ public class stackUsingArray {
     }
 
     public static boolean checkParenthesis(String str){
+        
         stackUsingArray stack = new stackUsingArray();
         for(int index =0; index < str.length(); index++ ){
             char characterScanned = str.charAt(index);

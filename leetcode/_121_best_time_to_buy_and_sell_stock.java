@@ -23,7 +23,7 @@
 // 1 <= prices.length <= 105
 // 0 <= prices[i] <= 104
 
-public class _21_best_time_to_buy_and_sell_stock {
+public class _121_best_time_to_buy_and_sell_stock {
     public int maxProfit(int[] prices) {
         int least_so_far = Integer.MAX_VALUE;
         int overallProfit = 0;

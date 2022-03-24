@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+// import java.util.ArrayList;
+// import java.util.Arrays;
 
 public class _349_Intersection_of_two_arrays {
     // Given two integer arrays nums1 and nums2, return an array of their
@@ -25,6 +25,8 @@ public class _349_Intersection_of_two_arrays {
     // }
 
     public static void main(String[] args) {
-       
+       int a = 9;
+       int b = a >> 3;
+        System.out.println(b);
     }
 }

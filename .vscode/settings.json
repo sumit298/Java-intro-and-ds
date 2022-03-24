@@ -14,6 +14,7 @@
         "Object Oriented Programming/Inheritance",
         "Object Oriented Programming/FileHandling",
         "Object Oriented Programming/ExceptionHandling",
+        "Object Oriented Programming/Abstract Class",
         "OS",
         "LinkList",
         "IntroLogicSums",
@@ -23,6 +24,6 @@
         "Conditional and Loops",
         "ComputerNetworks",
         "Array",
-        "Object Oriented Programming/Abstract Class"
+        "Object Oriented Programming/Interfaces"
     ]
 }

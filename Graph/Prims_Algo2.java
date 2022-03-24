@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class Prims_Algo {
+public class Prims_Algo2 {
 
   public void Prim(int G[][], int V) {
 
@@ -63,7 +63,7 @@ public class Prims_Algo {
 
 
   public static void main(String[] args) {
-    Prims_Algo g = new Prims_Algo();
+    Prims_Algo2 g = new Prims_Algo2();
 
     // number of vertices in grapj
     int V = 5;
@@ -75,20 +75,7 @@ public class Prims_Algo {
 
     g.Prim(G, V);
 
-    // create an object of the Main class
     
-
-    // get the start time
-    long start = System.currentTimeMillis();
-
-
-    // get the end time
-    long end = System.currentTimeMillis();
-
-    // execution time
-    long execution = end - start;
-    double seconds = execution / 1000.0;
-    System.out.println("Execution time: " + seconds + " seconds");
   }
 }
 
