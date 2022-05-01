@@ -6,48 +6,50 @@ import java.util.Scanner;
 // Can add for ascending order and descending order names.
 public class PhoneBookUse{
     public static PhoneBookNode createContacts(){
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the number of contacts you want to add: ");
-        int numofContacts = scan.nextInt();
-        PhoneBookNode head = null;
-        for(int i = 0; i < numofContacts; i++){
-            PhoneBookNode newNode = new PhoneBookNode();
-            System.out.println("Enter the name of the contact: ");
-            newNode.name = scan.next();
-            System.out.println("Enter the phone number of the contact: ");
-            newNode.number = scan.nextLong();
-            if(head == null){
-                head = newNode;
-            }else{
-                // whil
-                PhoneBookNode temp = head;
-                temp.right = newNode;
-                temp.right.left = temp;
-                temp = temp.right;
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("Enter the number of contacts you want to add: ");
+            int numofContacts = scan.nextInt();
+            PhoneBookNode head = null;
+            for(int i = 0; i < numofContacts; i++){
+                PhoneBookNode newNode = new PhoneBookNode();
+                System.out.println("Enter the name of the contact: ");
+                newNode.name = scan.next();
+                System.out.println("Enter the phone number of the contact: ");
+                newNode.number = scan.nextLong();
+                if(head == null){
+                    head = newNode;
+                }else{
+                    // whil
+                    PhoneBookNode temp = head;
+                    temp.right = newNode;
+                    temp.right.left = temp;
+                    temp = temp.right;
+                }
             }
+            return head;
         }
-        return head;
     }
 
     public static PhoneBookNode addContact(PhoneBookNode root){
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the name of the contact: ");
-        String name = scan.next();
-        System.out.println("Enter the phone number of the contact: ");
-        long number = scan.nextLong();
-        PhoneBookNode newNode = new PhoneBookNode();
-        newNode.name = name;
-        newNode.number = number;
-        if(root == null){
-            root = newNode;
-        }else{
-            PhoneBookNode temp = root;
-            while(temp.right != null){
-                temp = temp.right;
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("Enter the name of the contact: ");
+            String name = scan.next();
+            System.out.println("Enter the phone number of the contact: ");
+            long number = scan.nextLong();
+            PhoneBookNode newNode = new PhoneBookNode();
+            newNode.name = name;
+            newNode.number = number;
+            if(root == null){
+                root = newNode;
+            }else{
+                PhoneBookNode temp = root;
+                while(temp.right != null){
+                    temp = temp.right;
+                }
+                temp.right = newNode;
+                newNode.left = temp;
+                newNode.right = null;
             }
-            temp.right = newNode;
-            newNode.left = temp;
-            newNode.right = null;
         }
         return root;
     }

@@ -4,7 +4,7 @@ public class Prims_Algorithm {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the total no of vertices: ");
+        System.out.println("Enter the total no of vertices: "); 
         int totalVertices = scan.nextInt();
         System.out.println("Enter the total no of Edges: ");
         int totalEdges = scan.nextInt();
@@ -39,7 +39,7 @@ public class Prims_Algorithm {
 
         for (int i = 0; i < v; i++) {
             // Picking the vertex with min weight which is unvisited.
-            int minVertex = findMinVertex(weight, visited);
+            int minVertex = findMinVertex(weight, visited); // v times
             // making sure that this vertex is now visited
             visited[minVertex] = true;
 
@@ -47,7 +47,7 @@ public class Prims_Algorithm {
             // But how to check its neighbours
             // if there is edge weight then its vertex has its neighbour
             // otherwise it is not its neighbour
-            for (int j = 0; j < v; j++) {
+            for (int j = 0; j < v; j++) {  // v times
                 if (adjacencyMatrix[minVertex][j] != 0 && !visited[j]) {
                     if (adjacencyMatrix[minVertex][j] < weight[j]) {
 
@@ -91,6 +91,8 @@ public class Prims_Algorithm {
 
 }
 
+
+// time complexity: O(V^2)
 // Input flow:
 // first give total no of nodes/vertices for ex: 6
 // then give total no of edges in the graph for ex: 8

@@ -6,6 +6,265 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TravellingSalesmen",
+            "request": "launch",
+            "mainClass": "TravellingSalesmen",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixChainMultiplication",
+            "request": "launch",
+            "mainClass": "MatrixChainMultiplication",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coin_Change",
+            "request": "launch",
+            "mainClass": "Coin_Change",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _01Knapsack",
+            "request": "launch",
+            "mainClass": "_01Knapsack",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch subset_sum_problem",
+            "request": "launch",
+            "mainClass": "subset_sum_problem",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longest_Common_Substring",
+            "request": "launch",
+            "mainClass": "Longest_Common_Substring",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triple",
+            "request": "launch",
+            "mainClass": "Triple",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Divison",
+            "request": "launch",
+            "mainClass": "Divison",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _242_Valid_Anagram",
+            "request": "launch",
+            "mainClass": "_242_Valid_Anagram",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerofThree",
+            "request": "launch",
+            "mainClass": "PowerofThree",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerofTwo",
+            "request": "launch",
+            "mainClass": "PowerofTwo",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1480_Running_Sum_of_1d_Array",
+            "request": "launch",
+            "mainClass": "_1480_Running_Sum_of_1d_Array",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1365_How_Many_Numbers_Are_Smaller_Than_the_Current_Number",
+            "request": "launch",
+            "mainClass": "_1365_How_Many_Numbers_Are_Smaller_Than_the_Current_Number",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransposeMatrix",
+            "request": "launch",
+            "mainClass": "TransposeMatrix",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInMatrix",
+            "request": "launch",
+            "mainClass": "SearchInMatrix",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinofRow",
+            "request": "launch",
+            "mainClass": "MinofRow",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2_Add_Two_Numbers",
+            "request": "launch",
+            "mainClass": "_2_Add_Two_Numbers",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1351_Count_Negative_Numbers_in_a_Sorted_Matrix",
+            "request": "launch",
+            "mainClass": "_1351_Count_Negative_Numbers_in_a_Sorted_Matrix",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _83_Remove_Duplicates_from_Sorted_List",
+            "request": "launch",
+            "mainClass": "_83_Remove_Duplicates_from_Sorted_List",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseNumber",
+            "request": "launch",
+            "mainClass": "ReverseNumber",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_of_digits",
+            "request": "launch",
+            "mainClass": "Sum_of_digits",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_1_to_N",
+            "request": "launch",
+            "mainClass": "Sum_1_to_N",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1toN",
+            "request": "launch",
+            "mainClass": "_1toN",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _680_Valid_Palindrome_2",
+            "request": "launch",
+            "mainClass": "_680_Valid_Palindrome_2",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merge_Sort",
+            "request": "launch",
+            "mainClass": "Merge_Sort",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bubble_Sort",
+            "request": "launch",
+            "mainClass": "Bubble_Sort",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick_Sort",
+            "request": "launch",
+            "mainClass": "Quick_Sort",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _367_Valid_Perfect_Square",
+            "request": "launch",
+            "mainClass": "_367_Valid_Perfect_Square",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _852_Peak_Index_in_a_Mountain_Array",
+            "request": "launch",
+            "mainClass": "_852_Peak_Index_in_a_Mountain_Array",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _35_Search_Insert_Position",
+            "request": "launch",
+            "mainClass": "_35_Search_Insert_Position",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _206_Reverse_Link_List",
+            "request": "launch",
+            "mainClass": "_206_Reverse_Link_List",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binary_Search",
+            "request": "launch",
+            "mainClass": "Binary_Search",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dijkstra_Algorithm",
+            "request": "launch",
+            "mainClass": "Dijkstra_Algorithm",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _206_Reverse_Link_List",
+            "request": "launch",
+            "mainClass": "_206_Reverse_Link_List",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1662_Check_If_Two_String_Arrays_are_Equivalent",
+            "request": "launch",
+            "mainClass": "_1662_Check_If_Two_String_Arrays_are_Equivalent",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion_Sort",
+            "request": "launch",
+            "mainClass": "Insertion_Sort",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
             "name": "Launch _88_Merge_Two_Sorted_Array",
             "request": "launch",
             "mainClass": "_88_Merge_Two_Sorted_Array",

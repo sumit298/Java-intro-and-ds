@@ -5,100 +5,102 @@ import java.util.Scanner;
 public class LinkListUse {
 
     public static void menu(Node head) {
-        // Node head = new Node();
-        Scanner scan = new Scanner(System.in);
-        System.out.println("1. Insert In LinkList");
-        System.out.println("2. Display LinkList");
-        System.out.println("3. Delete LinkList");
-        System.out.println("4. Exit");
-        System.out.println("Enter your choice");
-        int choice = scan.nextInt();
-        switch (choice) {
+        try (// Node head = new Node();
+        Scanner scan = new Scanner(System.in)) {
+            System.out.println("1. Insert In LinkList");
+            System.out.println("2. Display LinkList");
+            System.out.println("3. Delete LinkList");
+            System.out.println("4. Exit");
+            System.out.println("Enter your choice");
+            int choice = scan.nextInt();
+            switch (choice) {
 
-        case 1:
-            insertMenu(head);
-            break;
-        case 2:
-            printLinkList(head);
-            menu(head);
-            break;
-        case 3:
-            deleteMenu(head);
-            break;
-        case 4:
-            System.exit(0);
-            // break;
-        default:
-            System.out.println("Invalid Choice!");
-            menu(head);
-            break;
+            case 1:
+                insertMenu(head);
+                break;
+            case 2:
+                printLinkList(head);
+                menu(head);
+                break;
+            case 3:
+                deleteMenu(head);
+                break;
+            case 4:
+                System.exit(0);
+                // break;
+            default:
+                System.out.println("Invalid Choice!");
+                menu(head);
+                break;
+            }
+            // scan.close();
         }
-        // scan.close();
     }
 
     public static void insertMenu(Node head) {
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("1. Insert At Beginning ");
-        System.out.println("2. Insert At Middle(at specific position)");
-        System.out.println("3. Insert At End");
-        System.out.println("4. Go to MainMenu");
-        System.out.println("Enter your choice");
-        int insertMenuChoice = scan.nextInt();
-        switch (insertMenuChoice) {
-        case 1:
-            head = insertAtStart(head);
-            menu(head);
-            break;
-        case 2:
-            insertAtMiddle(head);
-            menu(head);
-            break;
-        case 3:
-            InsertAtEnd(head);
-            menu(head);
-            break;
-        case 4:
-            menu(head);
-            // break;
-        default:
-            System.out.println("Invalid Choice");
-            menu(head);
-            break;
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("1. Insert At Beginning ");
+            System.out.println("2. Insert At Middle(at specific position)");
+            System.out.println("3. Insert At End");
+            System.out.println("4. Go to MainMenu");
+            System.out.println("Enter your choice");
+            int insertMenuChoice = scan.nextInt();
+            switch (insertMenuChoice) {
+            case 1:
+                head = insertAtStart(head);
+                menu(head);
+                break;
+            case 2:
+                insertAtMiddle(head);
+                menu(head);
+                break;
+            case 3:
+                InsertAtEnd(head);
+                menu(head);
+                break;
+            case 4:
+                menu(head);
+                // break;
+            default:
+                System.out.println("Invalid Choice");
+                menu(head);
+                break;
+            }
+            // scan.close();
         }
-        // scan.close();
     }
 
     public static void deleteMenu(Node head) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("1. DeleteAtBeginning");
-        System.out.println("2. DeleteAtMiddle (Removing node at specific position");
-        System.out.println("3. DeleteAtEnd");
-        System.out.println("4. Go to MainMenu");
-        System.out.println("Enter your choice");
-        int deleteMenuChoice = scan.nextInt();
-        switch (deleteMenuChoice) {
-        case 1:
-            head = deleteAtBeginning(head);
-            menu(head);
-            break;
-        case 2:
-            deleleAtMiddle(head);
-            menu(head);
-            break;
-        case 3:
-            deleteAtLast(head);
-            menu(head);
-            break;
-        case 4:
-            menu(head);
-            // break;
-        default:
-            System.out.println("Invalid Choice!");
-            menu(head);
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("1. DeleteAtBeginning");
+            System.out.println("2. DeleteAtMiddle (Removing node at specific position");
+            System.out.println("3. DeleteAtEnd");
+            System.out.println("4. Go to MainMenu");
+            System.out.println("Enter your choice");
+            int deleteMenuChoice = scan.nextInt();
+            switch (deleteMenuChoice) {
+            case 1:
+                head = deleteAtBeginning(head);
+                menu(head);
+                break;
+            case 2:
+                deleleAtMiddle(head);
+                menu(head);
+                break;
+            case 3:
+                deleteAtLast(head);
+                menu(head);
+                break;
+            case 4:
+                menu(head);
+                // break;
+            default:
+                System.out.println("Invalid Choice!");
+                menu(head);
 
+            }
+            // scan.close();
         }
-        // scan.close();
     }
 
     public static void printLinkList(Node head) {
@@ -115,25 +117,26 @@ public class LinkListUse {
 
     public static Node createLinkList() {
         Node head = null;
-        Scanner scan = new Scanner(System.in);
-        // For taking first Input
-        System.out.println("Enter the Nodes, to stop press -1: ");
-        int data = scan.nextInt();
-        while (data != -1) {
-            Node newNode = new Node();
-            newNode.data = data;
-            if (head == null) {
-                head = newNode;
-            } else {
-                // Creating temp for iteration
-                Node temp = head;
-                while (temp.next != null) {
-                    temp = temp.next;
+        try (Scanner scan = new Scanner(System.in)) {
+            // For taking first Input
+            System.out.println("Enter the Nodes, to stop press -1: ");
+            int data = scan.nextInt();
+            while (data != -1) {
+                Node newNode = new Node();
+                newNode.data = data;
+                if (head == null) {
+                    head = newNode;
+                } else {
+                    // Creating temp for iteration
+                    Node temp = head;
+                    while (temp.next != null) {
+                        temp = temp.next;
+                    }
+                    // reaching last and joining to new node
+                    temp.next = newNode;
                 }
-                // reaching last and joining to new node
-                temp.next = newNode;
+                data = scan.nextInt();
             }
-            data = scan.nextInt();
         }
         // scan.close();
         return head;

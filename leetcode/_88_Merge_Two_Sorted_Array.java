@@ -102,6 +102,8 @@ public class _88_Merge_Two_Sorted_Array {
         for(int i=0; i<n;i++){
             nums1[m+i] = nums2[i];
         }
+
+        
         Arrays.sort(nums1);
     }
 

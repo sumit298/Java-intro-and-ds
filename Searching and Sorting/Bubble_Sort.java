@@ -35,8 +35,15 @@ public class Bubble_Sort {
     }
 
     public static void main(String[] args) {
-        int[] arr = takeInput();
-        bubbleSort(arr);
-        printArray(arr);
+        for (int n = 10; n < 1000000; n = n* 10) {
+            int[] input = new int[n];
+            for (int i = 0; i < input.length; i++) {
+                input[i] = input.length - i;
+            }
+            long startTime = System.currentTimeMillis();
+            bubbleSort(input);
+            long endTime = System.currentTimeMillis();
+            System.out.println("Time taken by bubble sort for " + n + " is " + (endTime - startTime));
+        }
     }
 }
