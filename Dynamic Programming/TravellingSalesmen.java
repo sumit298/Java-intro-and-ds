@@ -18,14 +18,17 @@ public class TravellingSalesmen {
                         dp[i][j] = q;
                     }
                 }
+
             }
         }
         return dp[1][n - 1];
     }
+
     public static void main(String[] args) {
-        int[][] graph = {{1, 2, 3}, {4, 8, 2}, {1, 5, 3}};
+        int[][] graph = { { 0, 20, 30, 10, 11 }, { 15, 0, 16, 4, 2 }, { 3, 5, 0, 2, 4 }, { 19, 6, 18, 0, 3 },
+                { 16, 4, 7, 16, 0 } };
         int n = graph.length;
         System.out.println(travellingSalesmen(graph, n));
-        
+
     }
 }

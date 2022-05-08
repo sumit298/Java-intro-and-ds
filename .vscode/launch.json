@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch backspaceStringCompare",
+            "request": "launch",
+            "mainClass": "backspaceStringCompare",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch backspaceStringCompare",
+            "request": "launch",
+            "mainClass": "backspaceStringCompare",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1209_Remove_All_Adjacent_Duplicates_in_String_II",
+            "request": "launch",
+            "mainClass": "_1209_Remove_All_Adjacent_Duplicates_in_String_II",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1679_Max_Number_of_K_Sum_Pairs",
+            "request": "launch",
+            "mainClass": "_1679_Max_Number_of_K_Sum_Pairs",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _905_Sort_Array_By_Parity",
+            "request": "launch",
+            "mainClass": "_905_Sort_Array_By_Parity",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _844_Backspace_String_Compare",
+            "request": "launch",
+            "mainClass": "_844_Backspace_String_Compare",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
             "name": "Launch TravellingSalesmen",
             "request": "launch",
             "mainClass": "TravellingSalesmen",

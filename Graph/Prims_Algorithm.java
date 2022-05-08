@@ -11,7 +11,7 @@ public class Prims_Algorithm {
         int adjacencyMatrix[][] = new int[totalVertices][totalVertices];
         for (int i = 0; i < totalEdges; i++) {
             int startPath = scan.nextInt();
-            int endPath = scan.nextInt();
+            int endPath = scan.nextInt();   
             int weight = scan.nextInt();
             // Because of undirected graph
             adjacencyMatrix[startPath][endPath] = weight;
