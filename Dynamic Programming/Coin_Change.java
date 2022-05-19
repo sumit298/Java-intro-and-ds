@@ -47,11 +47,19 @@ public class Coin_Change {
     }
 
     public static void main(String[] args) {
-        int[] coins = { 1,2, 5 };
-        int amount = 11;
+        int[] coins = { 1,2,3,4,5 };
+        int amount = 16;
         System.out.println(coinChange(coins, amount));
     }
+    // Description: Given a set of coins and a total amount of money, find the minimum number of coins needed to make the change.
+    // Input: coins = [1, 2, 5], amount = 11
+
     // Time Complexity: O(n*amount)
     // Space Complexity: O(amount)
     
 }
+
+
+// What is Hamiltonian Path?
+// A Hamiltonian path is a path in a graph that visits each vertex exactly once.
+// What is Hamiltonian Cycle?

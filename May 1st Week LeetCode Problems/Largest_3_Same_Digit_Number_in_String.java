@@ -37,7 +37,7 @@ public class Largest_3_Same_Digit_Number_in_String {
     // 3 <= num.length <= 1000
     // num only consists of digits.
     public static String largestGoodInteger(String num) {
-        
+        return "";
 
     }
 }

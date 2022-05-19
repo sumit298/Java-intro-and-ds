@@ -39,27 +39,19 @@ public class subset_sum_problem {
         
 
         // use backtracking to print values
-        int i = arr.length;
-        int j = sum;
-        while (i > 0 && j > 0) {
-            if (dp[i][j] == true) {
-                System.out.print(arr[i - 1] + " ");
-                j = j - arr[i - 1];
-                i = i - 1;
-            } else {
-                i = i - 1;
-            }
-        }
+        
         
         return dp[arr.length][sum];
 
     }
 
     public static void main(String[] args) {
-        int[] arr = { 2, 3, 4, 5 };
-        int sum = 9;
+        int arr[] = {2, 3, 7, 8, 10};
+        int  sum = 11;
         System.out.println("Is subset Possible: " + subset_sum(arr, sum));
     }
+    // Description: Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum.
+
     // Time Complexity: O(n*sum)
     // Space Complexity: O(sum)
 

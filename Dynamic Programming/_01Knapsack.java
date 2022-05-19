@@ -25,9 +25,9 @@ public class _01Knapsack {
     
 
     public static void main(String[] args) {
-        int[] profit = { 1,4,5,7 };
-        int[] weight = { 1,3,4,5 };
-        int capacity = 7;
+        int[] profit = { 3,4,5,7,6 };
+        int[] weight = { 1,2,2,3,4 };
+        int capacity = 6;
         int noofItems = profit.length;
         System.out.println(knapsack_weight_profit(profit, weight, capacity, noofItems));
 

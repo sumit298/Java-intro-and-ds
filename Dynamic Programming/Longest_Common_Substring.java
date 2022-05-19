@@ -42,8 +42,8 @@ public class Longest_Common_Substring {
     }
 
     public static void main(String[] args) {
-        String s1 = "acbdaf";
-        String s2 = "acbcf";
+        String s1 = "wertyu";
+        String s2 = "eretuyy";
 
         System.out.println(longestCommonSubsequence(s1, s2));
 

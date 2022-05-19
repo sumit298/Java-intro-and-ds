@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseLinkListOptimal",
+            "request": "launch",
+            "mainClass": "ReverseLinkListRecursively.ReverseLinkListOptimal",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseRecursivelyDoubleNode",
+            "request": "launch",
+            "mainClass": "ReverseLinkListOptimized.ReverseRecursivelyDoubleNode",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkList",
+            "request": "launch",
+            "mainClass": "ReverseLinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "MergeTwoSortedArray",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteFromMiddleLinkList",
+            "request": "launch",
+            "mainClass": "SinglyLinkList.DeleteFromMiddleLinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleofLinkList",
+            "request": "launch",
+            "mainClass": "MiddleofLinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleofLinkList",
+            "request": "launch",
+            "mainClass": "MiddleofLinkList",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortArrayByParity",
+            "request": "launch",
+            "mainClass": "SortArrayByParity",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
             "name": "Launch backspaceStringCompare",
             "request": "launch",
             "mainClass": "backspaceStringCompare",
