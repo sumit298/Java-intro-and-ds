@@ -11,10 +11,20 @@ public class MiddleofLinkList {
         }
         return slow_pointer;
     }
+    public static Node MiddleLinkList(Node head){
+        Node midPrev = null;
+        while(head != null && head.next != null){
+            midPrev = (midPrev == null) ? head : midPrev.next;
+            head = head.next.next;
+        }
+        Node mid = midPrev.next;
+        midPrev.next = null;
+        return mid;
+    }
     public static void main(String[] args) {
         Node head = LinkListUse.createLinkList();
-        head = linkListMiddle(head);
+        head = MiddleLinkList(head);
         LinkListUse.printLinkList(head);
-
+        
     }
 }

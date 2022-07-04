@@ -10,23 +10,26 @@ public class Binary_Search {
         for (int i = 0; i < size; i++) {
             arr[i] = scan.nextInt();
         }
+        scan.close();
         return arr;
     }
 
-    public static int BinarySearch(int[] arr) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the number to be searched: ");
-        int key = scan.nextInt();
-        int low = 0;
-        int high = arr.length - 1;
-        while (low <= high) {
-            int mid = low + (high-low) / 2;
-            if (arr[mid] == key) {
-                return mid;
-            } else if (arr[mid] < key) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
+    public static int binarySearch(int nums[]) {
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.println("Enter the target you want to find: ");
+            int target = scan.nextInt();
+            int low = 0;
+            int high = nums.length - 1;
+            while (low <= high) {
+                int mid = low + (high - low) / 2;
+                if (nums[mid] == target) {
+                    return mid;
+
+                } else if (target >= nums[mid]) {
+                    low = mid + 1;
+                } else if (target <= nums[mid]) {
+                    high = mid - 1;
+                }
             }
         }
         return -1;
@@ -34,7 +37,7 @@ public class Binary_Search {
 
     public static void main(String[] args) {
         int[] arr = takeInput();
-        int key = BinarySearch(arr);
+        int key = binarySearch(arr);
         if (key == -1) {
             System.out.println("Element not found");
         } else {

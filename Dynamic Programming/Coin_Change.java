@@ -30,21 +30,40 @@ public class Coin_Change {
 
     }
 
-    public static int coinChange2(int coins[], int amount) {
-        int dp[] = new int[amount + 1];
-        dp[0] = 0;
-        for (int i = 1; i < coins.length; i++) {
-            dp[i] = amount + 1;
-        }
-        for (int i = 1; i < amount + 1; i++) {
-            for (int j = 0; j < coins.length; j++) {
-                if (i - j >= 0) {
-                    dp[i] = Math.min(dp[i], 1 + dp[i - j]);
-                }
-            }
-        }
-        return dp[amount] != amount + 1 ? dp[amount] : -1;
+    public int coinChange2(int[] coins, int amount) {
+        int n = coins.length;
+        
+        int t[][] = new int[n + 1][amount + 1];
+        
+        return subsetmin(coins, amount, n, t);
     }
+    public int subsetmin(int coins[], int sum, int n, int t[][]){
+	    for(int i = 0; i < n + 1; i++){
+	        for(int j = 0; j < sum + 1; j++){
+	            if(i == 0) t[i][j] = Integer.MAX_VALUE - 1;
+	            if(j == 0) t[i][j] = 0;
+	        }
+	    }
+	    
+	    for(int j = 1; j < sum + 1; j++){
+	        if(j % coins[0] == 0) t[n][sum] = j / coins[0];
+	        else t[n][sum] = Integer.MAX_VALUE - 1;
+	    }
+	    
+	    for(int i = 1; i < n + 1; i++){
+	        for(int j = 1; j < sum + 1; j++){
+	            if(coins[i - 1] <= j){
+	                t[i][j] = Math.min(t[i][j - coins[i - 1]] + 1, t[i - 1][j]);
+	            }
+	            else{
+	                t[i][j] = t[i - 1][j];
+	            }
+	        }
+	    }
+	    return t[n][sum]==Integer.MAX_VALUE-1 ? -1: t[n][sum];
+	}
+
+
 
     public static void main(String[] args) {
         int[] coins = { 1,2,3,4,5 };
@@ -63,3 +82,4 @@ public class Coin_Change {
 // What is Hamiltonian Path?
 // A Hamiltonian path is a path in a graph that visits each vertex exactly once.
 // What is Hamiltonian Cycle?
+

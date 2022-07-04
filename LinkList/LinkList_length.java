@@ -10,5 +10,9 @@ public class LinkList_length {
         }
         System.out.println("The length of LinkList is " + count);
     }
+
+    public static void main(String[] args) {
+        Node head =
+    }
     
 }

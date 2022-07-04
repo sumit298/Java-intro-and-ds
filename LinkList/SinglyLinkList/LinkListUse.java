@@ -6,7 +6,7 @@ public class LinkListUse {
 
     public static void menu(Node head) {
         try (// Node head = new Node();
-        Scanner scan = new Scanner(System.in)) {
+                Scanner scan = new Scanner(System.in)) {
             System.out.println("1. Insert In LinkList");
             System.out.println("2. Display LinkList");
             System.out.println("3. Delete LinkList");
@@ -15,23 +15,23 @@ public class LinkListUse {
             int choice = scan.nextInt();
             switch (choice) {
 
-            case 1:
-                insertMenu(head);
-                break;
-            case 2:
-                printLinkList(head);
-                menu(head);
-                break;
-            case 3:
-                deleteMenu(head);
-                break;
-            case 4:
-                System.exit(0);
-                // break;
-            default:
-                System.out.println("Invalid Choice!");
-                menu(head);
-                break;
+                case 1:
+                    insertMenu(head);
+                    break;
+                case 2:
+                    printLinkList(head);
+                    menu(head);
+                    break;
+                case 3:
+                    deleteMenu(head);
+                    break;
+                case 4:
+                    System.exit(0);
+                    // break;
+                default:
+                    System.out.println("Invalid Choice!");
+                    menu(head);
+                    break;
             }
             // scan.close();
         }
@@ -46,25 +46,25 @@ public class LinkListUse {
             System.out.println("Enter your choice");
             int insertMenuChoice = scan.nextInt();
             switch (insertMenuChoice) {
-            case 1:
-                head = insertAtStart(head);
-                menu(head);
-                break;
-            case 2:
-                insertAtMiddle(head);
-                menu(head);
-                break;
-            case 3:
-                InsertAtEnd(head);
-                menu(head);
-                break;
-            case 4:
-                menu(head);
-                // break;
-            default:
-                System.out.println("Invalid Choice");
-                menu(head);
-                break;
+                case 1:
+                    head = insertAtStart(head);
+                    menu(head);
+                    break;
+                case 2:
+                    insertAtMiddle(head);
+                    menu(head);
+                    break;
+                case 3:
+                    InsertAtEnd(head);
+                    menu(head);
+                    break;
+                case 4:
+                    menu(head);
+                    // break;
+                default:
+                    System.out.println("Invalid Choice");
+                    menu(head);
+                    break;
             }
             // scan.close();
         }
@@ -79,24 +79,24 @@ public class LinkListUse {
             System.out.println("Enter your choice");
             int deleteMenuChoice = scan.nextInt();
             switch (deleteMenuChoice) {
-            case 1:
-                head = deleteAtBeginning(head);
-                menu(head);
-                break;
-            case 2:
-                deleleAtMiddle(head);
-                menu(head);
-                break;
-            case 3:
-                deleteAtLast(head);
-                menu(head);
-                break;
-            case 4:
-                menu(head);
-                // break;
-            default:
-                System.out.println("Invalid Choice!");
-                menu(head);
+                case 1:
+                    head = deleteAtBeginning(head);
+                    menu(head);
+                    break;
+                case 2:
+                    deleleAtMiddle(head);
+                    menu(head);
+                    break;
+                case 3:
+                    deleteAtLast(head);
+                    menu(head);
+                    break;
+                case 4:
+                    menu(head);
+                    // break;
+                default:
+                    System.out.println("Invalid Choice!");
+                    menu(head);
 
             }
             // scan.close();
@@ -116,30 +116,53 @@ public class LinkListUse {
     }
 
     public static Node createLinkList() {
-        Node head = null;
-        try (Scanner scan = new Scanner(System.in)) {
-            // For taking first Input
-            System.out.println("Enter the Nodes, to stop press -1: ");
-            int data = scan.nextInt();
-            while (data != -1) {
-                Node newNode = new Node();
-                newNode.data = data;
-                if (head == null) {
-                    head = newNode;
-                } else {
-                    // Creating temp for iteration
-                    Node temp = head;
-                    while (temp.next != null) {
-                        temp = temp.next;
-                    }
-                    // reaching last and joining to new node
-                    temp.next = newNode;
+        Node head = new Node();
+        Scanner scan = new Scanner(System.in);
+        // For taking first Input
+        System.out.println("Enter the Nodes, to stop press -1: ");
+        int data = scan.nextInt();
+        while (data != -1) {
+            Node newNode = new Node();
+            newNode.data = data;
+            if (head.next == null) {
+                head.next = newNode;
+            } else {
+                // Creating temp for iteration
+                Node temp = head;
+                while (temp.next != null) {
+                    temp = temp.next;
                 }
-                data = scan.nextInt();
+                // reaching last and joining to new node
+                temp.next = newNode;
             }
+            data = scan.nextInt();
         }
+
         // scan.close();
-        return head;
+        return head.next;
+    }
+
+    public static Node takeInput() {
+        Node head = new Node();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the Nodes, to stop press -1: ");
+        int data = scan.nextInt();
+        while (data != -1) {
+            Node newNode = new Node();
+            newNode.data = data;
+            if (head.next == null) {
+                head.next = newNode;
+            } else {
+                Node temp = head;
+                while (temp.next != null) {
+                    temp = temp.next;
+                }
+                temp.next = newNode;
+            }
+            data = scan.nextInt();
+        }
+        return head.next;
+
     }
 
     public static Node insertAtStart(Node head) {
@@ -161,7 +184,7 @@ public class LinkListUse {
         Node newNode = new Node();
         newNode.data = data;
         Node temp = head;
-        if(head==null){
+        if (head == null) {
             return;
             // return newNode
         }
@@ -207,13 +230,13 @@ public class LinkListUse {
 
     }
 
-    public static void searchLinkList(Node head){
+    public static void searchLinkList(Node head) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the data you want to search: ");
         int data = scan.nextInt();
         Node temp = head;
-        while(temp.next!=null){
-            if(temp.data==data){
+        while (temp.next != null) {
+            if (temp.data == data) {
                 System.out.println("Data Found");
                 return;
             }
@@ -257,10 +280,19 @@ public class LinkListUse {
     }
 
     public static void main(String[] args) {
-        Node head = createLinkList();
-        menu(head);
+        Node head = takeInput();
+        Node head1 = takeInput();
+        printLinkList(head1);
+        printLinkList(head);
+
+        // menu(head);
 
     }
+
+    // why creating 2nd link list gives me No such element exception?
+    // because it is creating a new link list and it is not pointing to the same
+    // address.
+
 }
 
 // Why it is generating two separate link list on two calls?

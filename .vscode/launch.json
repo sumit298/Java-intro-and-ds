@@ -6,6 +6,181 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PalindromeLinkList",
+            "request": "launch",
+            "mainClass": "PalindromeLinkList",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeStrings",
+            "request": "launch",
+            "mainClass": "PalindromeStrings",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrettyPrinting",
+            "request": "launch",
+            "mainClass": "PrettyPrinting",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPrac",
+            "request": "launch",
+            "mainClass": "StringPrac",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEvenLinkList",
+            "request": "launch",
+            "mainClass": "OddEvenLinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1_TwoSum",
+            "request": "launch",
+            "mainClass": "_1_TwoSum",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _189_Rotate_An_Array",
+            "request": "launch",
+            "mainClass": "_189_Rotate_An_Array",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListCycle",
+            "request": "launch",
+            "mainClass": "LinkListCycle",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch isSubsequence",
+            "request": "launch",
+            "mainClass": "isSubsequence",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListUse",
+            "request": "launch",
+            "mainClass": "SinglyLinkList.LinkListUse",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "AddTwoNumbers",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merge_K_Sorted_Array",
+            "request": "launch",
+            "mainClass": "Merge_K_Sorted_Array",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkList",
+            "request": "launch",
+            "mainClass": "ReverseLinkList",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insert_Search_Position",
+            "request": "launch",
+            "mainClass": "Insert_Search_Position",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Search_In_rotated_Array",
+            "request": "launch",
+            "mainClass": "Search_In_rotated_Array",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "InvertBinaryTree",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _167_TwoSumII",
+            "request": "launch",
+            "mainClass": "_167_TwoSumII",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapNodeInPairs",
+            "request": "launch",
+            "mainClass": "SwapNodeInPairs",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpecialSumOfArray",
+            "request": "launch",
+            "mainClass": "SpecialSumOfArray",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoArray",
+            "request": "launch",
+            "mainClass": "MergeTwoArray",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortList",
+            "request": "launch",
+            "mainClass": "MergeSortList",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLL",
+            "request": "launch",
+            "mainClass": "MergeTwoSortedLL",
+            "projectName": "New - Intoduction to Java_d09d1b4f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySum",
+            "request": "launch",
+            "mainClass": "ArraySum",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfLinkList",
+            "request": "launch",
+            "mainClass": "SumOfLinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseLinkListOptimal",
             "request": "launch",
             "mainClass": "ReverseLinkListRecursively.ReverseLinkListOptimal",
