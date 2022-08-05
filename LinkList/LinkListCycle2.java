@@ -1,7 +1,7 @@
 import SinglyLinkList.Node;
 
 public class LinkListCycle2 {
-    public static Node LLCycle(Node head) {
+        public static Node LLCycle(Node head) {
         Node fast_pointer = head;
         Node slow_pointer = head;
         boolean isCycle = false;
@@ -17,6 +17,7 @@ public class LinkListCycle2 {
         if (isCycle == false) {
             return null;
         }
+        fast_pointer = head;
         // initialize a fast_pointer from the head move both slow_pointer where cycle
         // detected and fast_pointer from the start till they do not meet.
         while (fast_pointer != slow_pointer) {
@@ -28,7 +29,7 @@ public class LinkListCycle2 {
     }
 
     public static void main(String[] args) {
-
+        
     }
 }
 

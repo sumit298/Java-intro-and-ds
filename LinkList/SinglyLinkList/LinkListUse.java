@@ -281,9 +281,10 @@ public class LinkListUse {
 
     public static void main(String[] args) {
         Node head = takeInput();
-        Node head1 = takeInput();
-        printLinkList(head1);
-        printLinkList(head);
+        menu(head);
+        // Node head1 = takeInput();
+        // printLinkList(head1);
+        // printLinkList(head);
 
         // menu(head);
 

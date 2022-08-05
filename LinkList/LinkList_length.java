@@ -1,3 +1,4 @@
+import SinglyLinkList.LinkListUse;
 import SinglyLinkList.Node;
 
 public class LinkList_length {
@@ -12,7 +13,12 @@ public class LinkList_length {
     }
 
     public static void main(String[] args) {
-        Node head =
-    }
+        Node head = LinkListUse.createLinkList();
+        length_of_linklist(head);
+        LinkListUse.printLinkList(head);
+        System.out.println("Hello World");
+        
+        
+     }
     
 }

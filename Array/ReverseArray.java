@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ReverseArray {
     // By swapping
     public static int[] reverse(int arr[]) {
@@ -13,6 +15,16 @@ public class ReverseArray {
         for (int i = arr.length - 1; i >= 0; i--) {
             System.out.println(arr[i] + " ");
         }
+    }
+
+    public static void reverseArrayList(ArrayList<Integer> arr, int m){
+        for(int i=0; i<m/2;i++){
+            int temp = arr.get(i);
+            arr.set(i, arr.get(m-1-i));
+            arr.set(m-1-i, temp);
+
+        }
+        
     }
 
     public static void reverseRecursive(int arr[], int left, int right) {

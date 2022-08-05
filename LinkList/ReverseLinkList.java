@@ -45,7 +45,7 @@ public class ReverseLinkList {
 
     public static void main(String[] args) {
         Node head = LinkListUse.createLinkList();
-        head = reverseListIterative(head);
+        head = reverseListRecursive2(head);
         LinkListUse.printLinkList(head);
     }
 }

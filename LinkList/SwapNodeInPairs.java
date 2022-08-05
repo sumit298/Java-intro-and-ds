@@ -44,7 +44,7 @@ public class SwapNodeInPairs {
 
     public static void main(String[] args) {
         Node head = LinkListUse.createLinkList();
-        head = SwapPairs2(head);
+        head = SwapPairs(head);
         LinkListUse.printLinkList(head);
     }
 }

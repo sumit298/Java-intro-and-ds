@@ -1,3 +1,5 @@
+
+
 public class ArraySum {
     public static int sum(int[] arr) {
         int sum = 0;
@@ -8,7 +10,7 @@ public class ArraySum {
     }
     public static void main(String[] args) {
         int arr[] =  ArrayUse.arrInput();
+        // how to find min element in the array
         System.out.println("Sum of array is: " + sum(arr));
-
-    }
+    }   
 }

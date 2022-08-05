@@ -6,6 +6,265 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _238_Product_of_Array_Except_Itself",
+            "request": "launch",
+            "mainClass": "_238_Product_of_Array_Except_Itself",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesFloyd",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFloyd",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectionClass",
+            "request": "launch",
+            "mainClass": "Arrays_Class_and_Collection_Class.CollectionClass",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysClass",
+            "request": "launch",
+            "mainClass": "Arrays_Class_and_Collection_Class.ArraysClass",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashTableCollection",
+            "request": "launch",
+            "mainClass": "MapCollection.HashTableCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeMapCollection",
+            "request": "launch",
+            "mainClass": "MapCollection.TreeMapCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapCollection",
+            "request": "launch",
+            "mainClass": "MapCollection.HashMapCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashsetCollection",
+            "request": "launch",
+            "mainClass": "HashSetCollection.HashsetCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentHashsetUse",
+            "request": "launch",
+            "mainClass": "CustomClassHashSet.StudentHashsetUse",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeSetCollection",
+            "request": "launch",
+            "mainClass": "TreeSetCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedHashSetCollection",
+            "request": "launch",
+            "mainClass": "LinkedHashSetCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashsetCollection",
+            "request": "launch",
+            "mainClass": "HashsetCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayDequeCollection",
+            "request": "launch",
+            "mainClass": "ArrayDequeCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch PriorityQueueCollection",
+            "request": "launch",
+            "mainClass": "PriorityQueueCollection",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch PriorityQueue",
+            "request": "launch",
+            "mainClass": "PriorityQueue",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kth_Smallest_number_in_sorted_matrix",
+            "request": "launch",
+            "mainClass": "Kth_Smallest_number_in_sorted_matrix",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleOfLinkList",
+            "request": "launch",
+            "mainClass": "MiddleOfLinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueInterface",
+            "request": "launch",
+            "mainClass": "QueueInterface",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackInterface",
+            "request": "launch",
+            "mainClass": "StackInterface",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch List_ArrayList",
+            "request": "launch",
+            "mainClass": "List_ArrayList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoLinkList",
+            "request": "launch",
+            "mainClass": "MergeTwoLinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2148_Count_Elements_With_Strictly_Smaller_and_Greater_Elements",
+            "request": "launch",
+            "mainClass": "_2148_Count_Elements_With_Strictly_Smaller_and_Greater_Elements",
+            "projectName": "New - Intoduction to Java_3ca09776"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merge_K_Sorted_LinkList",
+            "request": "launch",
+            "mainClass": "Merge_K_Sorted_LinkList",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrangeArray",
+            "request": "launch",
+            "mainClass": "ArrangeArray",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInARotatedArray",
+            "request": "launch",
+            "mainClass": "SearchInARotatedArray",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicateFromUnSortedList",
+            "request": "launch",
+            "mainClass": "RemoveDuplicateFromUnSortedList",
+            "projectName": "New - Intoduction to Java_3ca09776"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListCycle",
+            "request": "launch",
+            "mainClass": "LinkListCycle",
+            "projectName": "New - Intoduction to Java_3ca09776"
+        },
+        {
+            "type": "java",
+            "name": "Launch DefangingAnIpAddress",
+            "request": "launch",
+            "mainClass": "DefangingAnIpAddress",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIndtheDifference",
+            "request": "launch",
+            "mainClass": "FIndtheDifference",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkListII",
+            "request": "launch",
+            "mainClass": "ReverseLinkListII",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloorNumber",
+            "request": "launch",
+            "mainClass": "FloorNumber",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch CeilingNumber",
+            "request": "launch",
+            "mainClass": "CeilingNumber",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1470_Shuffle_The_Array",
+            "request": "launch",
+            "mainClass": "_1470_Shuffle_The_Array",
+            "projectName": "New - Intoduction to Java_3ca09776"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2011_Final_Value_of_Variable_After_Performing_Operations",
+            "request": "launch",
+            "mainClass": "_2011_Final_Value_of_Variable_After_Performing_Operations",
+            "projectName": "New - Intoduction to Java_3ca09776"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListUse",
+            "request": "launch",
+            "mainClass": "SinglyLinkList.LinkListUse",
+            "projectName": "New - Intoduction to Java_b4705797"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesFloyd",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFloyd",
+            "projectName": "New - Intoduction to Java_2c4017b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkList_length",
+            "request": "launch",
+            "mainClass": "LinkList_length",
+            "projectName": "New - Intoduction to Java_2c4017b8"
+        },
+        {
+            "type": "java",
             "name": "Launch PalindromeLinkList",
             "request": "launch",
             "mainClass": "PalindromeLinkList",
