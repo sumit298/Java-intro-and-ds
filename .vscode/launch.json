@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LaptopUse",
+            "request": "launch",
+            "mainClass": "Comparable_And_Comparator.LaptopUse",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdjacencyListGraph",
+            "request": "launch",
+            "mainClass": "AdjacencyListGraph",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
             "name": "Launch _238_Product_of_Array_Except_Itself",
             "request": "launch",
             "mainClass": "_238_Product_of_Array_Except_Itself",
