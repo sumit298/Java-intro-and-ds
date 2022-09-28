@@ -15,8 +15,8 @@ public class Sum_of_digits {
         return n%10 * Product_sum(n/10);
     }
     public static void main(String[] args) {
-        System.out.println(digit_sum(578));
-        System.out.println(Product_sum(57));
+        System.out.println(digit_sum(9515));
+        System.out.println(Product_sum(57028));
     }
 
 }

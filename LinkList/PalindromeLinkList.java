@@ -43,6 +43,7 @@ public class PalindromeLinkList {
         }
         return current;
     }
+    
     public static void main(String[] args) {
         Node head = LinkListUse.createLinkList();
         System.out.println(isPalindromeLL(head));

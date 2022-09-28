@@ -2,13 +2,12 @@ import SinglyLinkList.LinkListUse;
 import SinglyLinkList.Node;
 
 public class ReverseLinkList {
-    
 
-    public static Node reverseListIterative(Node head){
+    public static Node reverseListIterative(Node head) {
         Node current = head;
         Node previous = null;
         Node temp;
-        while(current!=null){
+        while (current != null) {
             temp = current.next;
             current.next = previous;
             previous = current;
@@ -17,13 +16,13 @@ public class ReverseLinkList {
         return previous;
     }
 
-    public static Node reverseListRecursive(Node head){
-        if(head==null || head.next==null){
+    public static Node reverseListRecursive(Node head) {
+        if (head == null || head.next == null) {
             return head;
         }
         Node Reversehead = reverseListRecursive(head.next);
         Node temp = Reversehead;
-        while(temp.next!=null){
+        while (temp.next != null) {
             temp = temp.next;
 
         }
@@ -31,8 +30,9 @@ public class ReverseLinkList {
         head.next = null;
         return Reversehead;
     }
-    public static Node reverseListRecursive2(Node head){
-        if(head==null || head.next==null){
+
+    public static Node reverseListRecursive2(Node head) {
+        if (head == null || head.next == null) {
             return head;
         }
         Node firstTail = head.next;
@@ -41,7 +41,6 @@ public class ReverseLinkList {
         head.next = null;
         return Reversehead;
     }
-
 
     public static void main(String[] args) {
         Node head = LinkListUse.createLinkList();

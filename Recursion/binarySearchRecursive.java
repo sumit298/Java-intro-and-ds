@@ -10,7 +10,9 @@ public class binarySearchRecursive {
             System.out.println("Enter the elements of " + i);
             arr[i] = scan.nextInt();
         }
+        scan.close();
         return arr;
+        
     }
 
     static int binarySearch(int arr[], int target, int start, int end) {

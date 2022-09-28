@@ -6,6 +6,181 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringCompression",
+            "request": "launch",
+            "mainClass": "StringCompression",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longest_Common_SubSequence",
+            "request": "launch",
+            "mainClass": "Longest_Common_SubSequence",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestIncreasingSubSequence",
+            "request": "launch",
+            "mainClass": "LongestIncreasingSubSequence",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrangeArray",
+            "request": "launch",
+            "mainClass": "ArrangeArray",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseWordsInAString3",
+            "request": "launch",
+            "mainClass": "ReverseWordsInAString3",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubArray",
+            "request": "launch",
+            "mainClass": "MaximumSubArray",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstNonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "FirstNonRepeatingCharacter",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch HaroldAndHisHomework",
+            "request": "launch",
+            "mainClass": "HaroldAndHisHomework",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch DifferenceOfTwoArrayEqualToTarget",
+            "request": "launch",
+            "mainClass": "DifferenceOfTwoArrayEqualToTarget",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _525_ContigousArray",
+            "request": "launch",
+            "mainClass": "_525_ContigousArray",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch CeilingNumber",
+            "request": "launch",
+            "mainClass": "CeilingNumber",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _41_FirstMissingPositive",
+            "request": "launch",
+            "mainClass": "_41_FirstMissingPositive",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArraysOfEqualLength",
+            "request": "launch",
+            "mainClass": "SubArraysOfEqualLength",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _53_Maximum_SubArray",
+            "request": "launch",
+            "mainClass": "_53_Maximum_SubArray",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseCol",
+            "request": "launch",
+            "mainClass": "ReverseCol",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _287_Find_The_Duplicate_Number",
+            "request": "launch",
+            "mainClass": "_287_Find_The_Duplicate_Number",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInARotatedArray",
+            "request": "launch",
+            "mainClass": "SearchInARotatedArray",
+            "projectName": "New - Intoduction to Java_7d193e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEvenLinkList",
+            "request": "launch",
+            "mainClass": "OddEvenLinkList",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleLL",
+            "request": "launch",
+            "mainClass": "MiddleLL",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeLinkList",
+            "request": "launch",
+            "mainClass": "PalindromeLinkList",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleofLinkList",
+            "request": "launch",
+            "mainClass": "MiddleofLinkList",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInMatrix",
+            "request": "launch",
+            "mainClass": "SearchInMatrix",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch passing_numbers",
+            "request": "launch",
+            "mainClass": "passing_numbers",
+            "projectName": "New - Intoduction to Java_9cbee447"
+        },
+        {
+            "type": "java",
             "name": "Launch LaptopUse",
             "request": "launch",
             "mainClass": "Comparable_And_Comparator.LaptopUse",

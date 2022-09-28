@@ -16,7 +16,8 @@ public class _53_Maximum_SubArray {
         return maxSum;
     }
     public static void main(String[] args) {
-        
+        int arr[] = {3,-2,4,5,-9};
+        System.out.println(maxSubArray(arr));
     }
 }
 

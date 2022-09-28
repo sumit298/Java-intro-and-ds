@@ -2,11 +2,21 @@
     "java.project.sourcePaths": [
         "leetcode",
         "blind75/LinkList21",
+        "blind75/Array",
+        "String",
+        "Searching and Sorting",
+        "Recursion",
+        "Object Oriented Programming/Inheritance",
+        "Matrix",
         "LinkList",
         "IntroLogicSums",
+        "Interview Experiences/Optum",
+        "Interview Experiences/Media.net",
+        "Interview Experiences/MAQ Software",
+        "Graph/Implementation",
         "Collections Framework",
         "Binary Search Problems",
         "Array",
-        "Graph/Implementation"
+        "Dynamic Programming"
     ]
 }
