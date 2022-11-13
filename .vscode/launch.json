@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArithmeticArrayPartition",
+            "request": "launch",
+            "mainClass": "ArithmeticArrayPartition",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateList",
+            "request": "launch",
+            "mainClass": "RotateList",
+            "projectName": "New - Intoduction to Java_7d193e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MakingTheStringGreat",
+            "request": "launch",
+            "mainClass": "MakingTheStringGreat",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateList",
+            "request": "launch",
+            "mainClass": "RotateList",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicCalculator",
+            "request": "launch",
+            "mainClass": "BasicCalculator",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueUsingStacks",
+            "request": "launch",
+            "mainClass": "QueueUsingStacks",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReversePolishNotation",
+            "request": "launch",
+            "mainClass": "ReversePolishNotation",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _442_Find_Duplicates_In_Array",
+            "request": "launch",
+            "mainClass": "_442_Find_Duplicates_In_Array",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _56_Merge_Intervals",
+            "request": "launch",
+            "mainClass": "_56_Merge_Intervals",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
             "name": "Launch StringCompression",
             "request": "launch",
             "mainClass": "StringCompression",

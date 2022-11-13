@@ -17,8 +17,5 @@ public class LinkList_length {
         length_of_linklist(head);
         LinkListUse.printLinkList(head);
         System.out.println("Hello World");
-        
-        
-     }
-    
+    }
 }

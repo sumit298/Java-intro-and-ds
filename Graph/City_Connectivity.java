@@ -18,8 +18,7 @@ public class City_Connectivity {
                 if (inindex == outindex) {
                     kms[inindex][outindex] = 0;
                 } else {
-                    System.out
-                            .println("Do you want a route from " + (inindex + 1) + " to " + (outindex + 1) + " Y or N");
+                    System.out.println("Do you want a route from " + (inindex + 1) + " to " + (outindex + 1) + " Y or N");
                     boolean connection = scan.nextLine().trim().equalsIgnoreCase("y") ? true : false;
                     if (connection == true) {
                         System.out.println("Enter kms: ");
