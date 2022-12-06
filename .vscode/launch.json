@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _724_Find_Pivot_Index",
+            "request": "launch",
+            "mainClass": "_724_Find_Pivot_Index",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2225_Find_Players_With_One_Or_Zero_Loses",
+            "request": "launch",
+            "mainClass": "_2225_Find_Players_With_One_Or_Zero_Loses",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1704_Determine_Strings_Are_Half_Alike",
+            "request": "launch",
+            "mainClass": "_1704_Determine_Strings_Are_Half_Alike",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _451_Sort_Character_By_Frequency",
+            "request": "launch",
+            "mainClass": "_451_Sort_Character_By_Frequency",
+            "projectName": "New - Intoduction to Java_7d193e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch House_Robber",
+            "request": "launch",
+            "mainClass": "House_Robber",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _633_Sum_of_squares_nums",
+            "request": "launch",
+            "mainClass": "_633_Sum_of_squares_nums",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumbers2",
+            "request": "launch",
+            "mainClass": "AddTwoNumbers2",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
             "name": "Launch Program",
             "request": "launch",
             "mainClass": "Program",

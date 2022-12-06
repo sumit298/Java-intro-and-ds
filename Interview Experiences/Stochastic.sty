@@ -1,0 +1,29 @@
+% for overleaf algorithm
+\begin{algorithm}
+\caption{Stochastic Gradient Descent}
+\begin{algorithmic}[1]
+\FOR t=0 to T do \Comment{Stopping Condition}
+    x \leftarrow Random element from X \Comment{Sample Dataset}
+    o_i \leftarrow f_1(x)
+    \FOR i=2 to layers do \Comment{Forward Propagation of l}
+        o_i \leftarrow f_i(o_{i-1})
+    \ENDFOR
+    \FOR i = layers - 1 to 1 do \Comment{Compute Gradient of l via backpropagation}
+        \STATE \nabla\textbf{o}_i \leftarrow \frac{\partial f}{\partial o_i} (o_i-1 \odot o_i. \nabla o_i+1) \Comment{Gradient w.r.t data}
+        \STATE \nabla\textbf{w}_i \leftarrow \frac{\partial f}{\partial w_i} (o_i-1 \odot o_i. \nabla o_i+1) \Comment{Gradient w.r.t layer parameters}
+    \ENDFOR
+    w^(t+1) \leftarrow w^t - \eta \nabla\textbf{w}_1 \Comment{Update Parameters}
+\end{algorithmic}
+\end{algorithm}
+
+
+
+
+% how to make unordered lists
+\begin{itemize}
+\item First item
+\item Second item
+% sub list
+\begin{itemize}
+\item First sub item
+\item Second sub item

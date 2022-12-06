@@ -54,8 +54,8 @@ public class ArithmeticArrayPartition {
 
     }
     public static void main(String[] args) {
-        String operator = "+";
-        double result = 8;
+        String operator = "*";
+        double result = 6;
         List<Integer> array = new ArrayList<>();
         array.add(1);
         array.add(2);
