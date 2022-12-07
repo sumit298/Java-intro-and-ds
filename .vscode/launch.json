@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Range_Sum_Of_BST",
+            "request": "launch",
+            "mainClass": "Range_Sum_Of_BST",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
             "name": "Launch _724_Find_Pivot_Index",
             "request": "launch",
             "mainClass": "_724_Find_Pivot_Index",
