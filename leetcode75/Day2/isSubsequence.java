@@ -1,3 +1,4 @@
+package Day2;
 public class isSubsequence {
     public static boolean isStringsSubSequence(String s, String t) {
         if (s.length() > t.length()) {
