@@ -7,6 +7,7 @@
         "Stack And Queues",
         "Searching and Sorting",
         "Recursion",
+        "Priority Queue and Heap",
         "Object Oriented Programming/Inheritance",
         "Matrix",
         "LinkList",
@@ -19,8 +20,10 @@
         "Graph",
         "Dynamic Programming",
         "Collections Framework",
+        "Binary Search Tree",
         "Binary Search Problems",
+        "Backtracking",
         "Array",
-        "Binary Search Tree"
+        "leetcode75"
     ]
 }

@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _424_Longest_Repeating_Character_Replacement",
+            "request": "launch",
+            "mainClass": "_424_Longest_Repeating_Character_Replacement",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Keys_And_Rooms",
+            "request": "launch",
+            "mainClass": "Keys_And_Rooms",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Last_Stone_Weight",
+            "request": "launch",
+            "mainClass": "Last_Stone_Weight",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Top_k_Frequent_Words",
+            "request": "launch",
+            "mainClass": "Top_k_Frequent_Words",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Min_Cost_Climbing_Stairs",
+            "request": "launch",
+            "mainClass": "Min_Cost_Climbing_Stairs",
+            "projectName": "New - Intoduction to Java_7d193e8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unique_Paths",
+            "request": "launch",
+            "mainClass": "Unique_Paths",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumFallingPathSum",
+            "request": "launch",
+            "mainClass": "MinimumFallingPathSum",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeMaximumPathSum",
+            "request": "launch",
+            "mainClass": "BinaryTreeMaximumPathSum",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch N_Queens",
+            "request": "launch",
+            "mainClass": "N_Queens",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
             "name": "Launch Range_Sum_Of_BST",
             "request": "launch",
             "mainClass": "Range_Sum_Of_BST",

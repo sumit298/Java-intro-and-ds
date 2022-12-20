@@ -17,7 +17,12 @@ public class PriorityQueue {
 
     int getMin(){
         if(isEmpty()){
-            throw new PriorityQueueException();
+            try {
+                throw new PriorityQueueException();
+            } catch (PriorityQueueException e) {
+                // Auto-generated catch block
+                e.printStackTrace();
+            }
         }
         return heap.get(0);
     }

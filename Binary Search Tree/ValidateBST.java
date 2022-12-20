@@ -16,4 +16,5 @@ public class ValidateBST {
         }
         return validBST(root.left, left, root.data) && validBST(root.right, root.data, right);
     }
+    
 }
