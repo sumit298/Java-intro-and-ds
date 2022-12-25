@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Buy_And_Sell_Stocks_With_Cooldown",
+            "request": "launch",
+            "mainClass": "Buy_And_Sell_Stocks_With_Cooldown",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_of_Distance_from_Each_Node",
+            "request": "launch",
+            "mainClass": "Sum_of_Distance_from_Each_Node",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
             "name": "Launch _424_Longest_Repeating_Character_Replacement",
             "request": "launch",
             "mainClass": "_424_Longest_Repeating_Character_Replacement",
