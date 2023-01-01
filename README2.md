@@ -1,33 +1,35 @@
 # Java-intro-and-ds
 
 Learning Java and Data Structures,\
-Might be code of c and c++ also.\
-LeetCode Day - 1:\
- 7. Reverse Number\
- 9. Check Palindrome\
- 35. Search Insert Position\
- 53. Max SubArray (kadane Algorithm)\
- 217. Contains Duplicate\
- 485. Max Consecutive Ones
 
-LeetCode Day - 2:\
- 20. Valid Parenthesis
+## December 2022 Problems List
 
-LeetCode Day - 3:\
- 66. Plus One 136. Single Number
-
-LeetCode Day - 4:\
- 21. Best time to buy and sell stock (Optimized Approach Remaining)
-
-LeetCode Day - 5:\
- 283. Move Zeroes
-
-LeetCode Day - 6:\
- 219. Contains Duplicate II
-
-LeetCode Day - 7:\
- 704. Binary Search\
- 1290.Convert Binary Number in a Linked List to Integer
-
-LeetCode Day - 8:\
- 34. Find first and last position of element in sorted Array(Binary Search Application)
+- December 1 -> 1704. Determine if String Halves Are Alike
+- December 2 -> 1657. Determine if Two Strings Are Close
+- December 3 -> 451. Sort Characters By Frequency
+- December 4 -> 2256. Minimum Average Distance
+- December 5 -> 876. Middle of the Linked List
+- December 6 -> 328. Odd Even Linked List
+- December 7 -> 938. Range Sum of BST
+- December 8 -> 872. Leaf-Similar Trees
+- December 9 -> 1026. Maximum Difference Between Node and Ancestor
+- December 10 -> 1339. Maximum Product of Splitted Binary Tree
+- December 11 -> 124. Binary Tree Maximum Path Sum
+- December 12 -> 70. Climbing Stairs
+- December 13 -> 931. Minimum Falling Path Sum
+- December 14 -> 198. House Robber
+- December 15 -> 1143. Longest Common Subsequence
+- December 16 -> 232. Implement Queue using Stacks
+- December 17 -> 150. Evaluate Reverse Polish Notation
+- December 18 -> 739. Daily Temperatures
+- December 19 -> 1971. Find if Path Exists in Graph
+- December 20 -> 841. Keys and Rooms
+- December 21 -> 886. Possible Bipartition
+- December 22 -> 834. Sum of Distances in Tree
+- December 23 -> 309. Best Time to Buy and Sell Stock with Cooldown
+- December 24 -> 790. Domino and Tromino Tiling
+- December 25 -> 2389. Longest Subsequence With Limited Sum
+- December 26 -> 55. Jump Game
+- December 27 -> 2279. Maximum Bags With Full Capacity of Rocks
+- December 28 -> 1962. Remove Stones to Minimize the Total
+- December 29 -> 1834. Single-Threaded CPU

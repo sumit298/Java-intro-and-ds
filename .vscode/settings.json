@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "leetcode75",
         "leetcode",
         "blind75/LinkList21",
         "blind75/Array",
@@ -24,6 +25,6 @@
         "Binary Search Problems",
         "Backtracking",
         "Array",
-        "leetcode75"
+        "Bit Manipulation"
     ]
 }

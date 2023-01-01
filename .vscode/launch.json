@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Word_Pattern",
+            "request": "launch",
+            "mainClass": "Word_Pattern",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add_Two_Binary",
+            "request": "launch",
+            "mainClass": "Add_Two_Binary",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
             "name": "Launch Buy_And_Sell_Stocks_With_Cooldown",
             "request": "launch",
             "mainClass": "Buy_And_Sell_Stocks_With_Cooldown",
