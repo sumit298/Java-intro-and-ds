@@ -7,6 +7,19 @@ public class _1470_Shuffle_The_Array {
         }
         return res;
     }
+    public static int[] shuffle3(int nums[], int n){
+        int res[] = new int [2*n];
+        for(int i=0; i<res.length; i++){
+            if(i%2==0){
+                res[i] = nums[i/2];
+            }
+            else{
+                res[i] = nums[n+i/2];
+            }
+
+        }
+        return res;
+    }
     public static int[] shuffle(int nums[], int n){
         int result[] = new int[nums.length];
         int i; 
@@ -27,7 +40,7 @@ public class _1470_Shuffle_The_Array {
     
     public static void main(String[] args) {
         int arr[] = {2,5,1,3,4,7};
-        int result[] = shuffle(arr, 3);
+        int result[] = shuffle3(arr, 3);
         for(int i=0; i<result.length;i++){
             System.out.print(result[i] + " ");
         }

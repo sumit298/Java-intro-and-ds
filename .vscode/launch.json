@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "problem1",
+            "request": "launch",
+            "mainClass": "problem1",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "_1_TwoSum",
+            "request": "launch",
+            "mainClass": "_1_TwoSum",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Minimum_speed_to_arrive_on_time",
+            "request": "launch",
+            "mainClass": "Minimum_speed_to_arrive_on_time",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Binary_Search",
+            "request": "launch",
+            "mainClass": "Binary_Search",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _989_Add_To_Array_Form_of_Integer",
+            "request": "launch",
+            "mainClass": "_989_Add_To_Array_Form_of_Integer",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloorNumber",
+            "request": "launch",
+            "mainClass": "FloorNumber",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jump_game",
+            "request": "launch",
+            "mainClass": "Jump_game",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jump_game_2",
+            "request": "launch",
+            "mainClass": "Jump_game_2",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1470_Shuffle_The_Array",
+            "request": "launch",
+            "mainClass": "_1470_Shuffle_The_Array",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _560_SubArray_Sum_Equals_K",
+            "request": "launch",
+            "mainClass": "_560_SubArray_Sum_Equals_K",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch _3_Delete_Columns_To_Make_Sorted",
+            "request": "launch",
+            "mainClass": "Monthly_Problems.January2023._3_Delete_Columns_To_Make_Sorted",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesFromLinkList2",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFromLinkList2",
+            "projectName": "New - Intoduction to Java_1a96a048"
+        },
+        {
+            "type": "java",
             "name": "Launch Word_Pattern",
             "request": "launch",
             "mainClass": "Word_Pattern",

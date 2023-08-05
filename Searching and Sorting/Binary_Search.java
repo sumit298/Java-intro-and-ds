@@ -10,28 +10,27 @@ public class Binary_Search {
         for (int i = 0; i < size; i++) {
             arr[i] = scan.nextInt();
         }
-        scan.close();
         return arr;
     }
 
     public static int binarySearch(int nums[]) {
-        try (Scanner scan = new Scanner(System.in)) {
-            System.out.println("Enter the target you want to find: ");
-            int target = scan.nextInt();
-            int low = 0;
-            int high = nums.length - 1;
-            while (low <= high) {
-                int mid = low + (high - low) / 2;
-                if (nums[mid] == target) {
-                    return mid;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the target you want to find: ");
+        int target = scan.nextInt();
+        int low = 0;
+        int high = nums.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] == target) {
+                return mid;
 
-                } else if (target >= nums[mid]) {
-                    low = mid + 1;
-                } else if (target <= nums[mid]) {
-                    high = mid - 1;
-                }
+            } else if (target >= nums[mid]) {
+                low = mid + 1;
+            } else if (target <= nums[mid]) {
+                high = mid - 1;
             }
         }
+
         return -1;
     }
 

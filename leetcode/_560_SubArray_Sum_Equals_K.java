@@ -15,4 +15,9 @@ public class _560_SubArray_Sum_Equals_K {
         }
         return count;
     }
+    public static void main(String[] args) {
+        int nums[] = {2,3,5,7,6,1};
+        int k = 4;
+        System.out.println(subArraySum(nums, k));
+    }
 }

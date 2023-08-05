@@ -20,4 +20,7 @@ public class _523_Continous_SubArray_Sum {
         }
         return false;
     }
+    public static void main(String[] args) {
+        
+    }
 }
